@@ -1,6 +1,8 @@
 export const OWNER = "javastarboy";
 export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+// github 链接
+// export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
+export const REPO_URL = `https://mp.weixin.qq.com/s/eFfSmD1HGRbTzVqsivN0yA`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
