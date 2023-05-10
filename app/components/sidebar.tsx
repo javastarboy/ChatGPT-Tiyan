@@ -121,8 +121,8 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT4 Javastarboy</div>
         <div className={styles["sidebar-sub-title"]}>
-          <a href = "https://www.javastarboy.cn/%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.png" target="_blank">感兴趣的小伙伴, 加入社群，终身免费使用权限！</a> <br />
-          <a href = "https://www.javastarboy.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank">点我关注公众号，每日惊喜不断，干货不断！</a>
+          <a href = "https://www.javastarboy.cn/%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.png" target="_blank">感兴趣的小伙伴,加入社群,终身免费使用！</a> <br />
+          <a href = "https://www.javastarboy.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank">点我关注公众号,每日惊喜不断，干货不断！</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
