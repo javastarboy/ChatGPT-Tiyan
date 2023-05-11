@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n 关于【人工智能变现学院（AI2.0实验室）】简介请点击链接：https://mp.weixin.qq.com/s/eFfSmD1HGRbTzVqsivN0yA",
+      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n 关于【人工智能变现学院（AI2.0实验室）】简介请点击链接：https://mp.weixin.qq.com/s/sAVnzvxKYgA4YWaToqSwSg",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
