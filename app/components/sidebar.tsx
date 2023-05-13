@@ -180,7 +180,7 @@ export function SideBar(props: { className?: string }) {
             </a>
           </div>
           <div>
-            <a href = "https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" target="_blank">赞助</a>
+            <a href = "https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" target="_blank">赞助</a>&nbsp;
             <a href = "https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png" target="_blank">交流</a>
           </div>
         </div>
