@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "前往公众号👉🏻[javastarboy](https://www.javastarboy.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)** 回复 **GPT4密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。\n\n若自己的 api_key 不够用，也可以加我微信 **javastarboy** 获取独享api_key，绝对可靠！ \n\n欢迎来聊聊👉🏻 [AI2.0 实验室|微信交流群](https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) ",
+    BotHello: "前往公众号👉🏻 [javastarboy](https://www.javastarboy.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**「GPT4密码」**获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后**即可使用**。\n\n若自己的 api_key 不够用，也可以加我微信 **javastarboy** 获取独享api_key，绝对可靠！ \n\n欢迎来聊聊👉🏻 [AI2.0 实验室|微信交流群](https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) ",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
