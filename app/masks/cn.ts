@@ -57,6 +57,33 @@ export const CN_MASKS: BuiltinMask[] = [{
     builtin: true,
   },
   {
+    avatar:"gpt-bot",
+    name: "通用prompt",
+    context: [
+      {
+        role:"system",
+        content:"你是一个人工智能训练师",
+        date:"",
+      },{
+        role: "user",
+        content:
+          "你的任务是在助手(A)和用户(U)之间切换。我会通过输入A或U来指定您应该以助手或者用户的身份回答或继续回答。\n作为用户，您尝试解决一个问题，作为助手您尝试帮助用户。\n您作为用户的任务是：“帮我制定一份如何用chatgpt人工智能来实现短视频运营赚钱方案”。\n现在开始以用户的身份提问。 U：",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
     avatar: "1f978",
     name: "机器学习",
     context: [
