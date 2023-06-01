@@ -5,7 +5,7 @@
 
 一键免费部署你的私人 ChatGPT 网页应用。
 
-[演示 Demo](https://chat-gpt-next-web-javastarboy.vercel.app/) / [反馈 Issues](https://github.com/javastarboy/ChatGPT-Next-Web/issues) / [微信群](https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) / [打赏开发者](https://www.javastarboy.cn/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg)
+[演示 Demo](https://chat-gpt-next-web-javastarboy.vercel.app/) / [反馈 Issues](https://github.com/javastarboy/ChatGPT-Next-Web/issues) / [微信群](https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) / [打赏开发者](https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjavastarboy%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
