@@ -4,7 +4,14 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往公众号👉🏻 [javastarboy](https://www.jsbcp.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码。\n2. 欢迎来聊聊，每日分享干货👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) \n3. 若需要购买api_key，也可以加我微信 **javastarboy** 获取**独享api_key**，绝对可靠、便宜！ \n4. 永久免费极速版ChatGPT网址请移步：https://www.jsbcp.cn/ \n5. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/sAVnzvxKYgA4YWaToqSwSg \n\n【社群成员终身免费享有ChatGPT4使用密码】",
+      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往公众号👉🏻 [javastarboy](https://www.jsbcp.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码。\n2. 欢迎来聊聊，每日分享干货👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) \n3. 若需要购买api_key，也可以加我微信 **javastarboy** 获取**独享api_key**，绝对可靠、便宜！ \n4. 永久免费极速版ChatGPT网址请移步：https://www.jsbcp.cn/ \n5. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/sAVnzvxKYgA4YWaToqSwSg \n\n【社群成员终身免费享有ChatGPT4使用密码】",
+  },
+  Auth: {
+    Title: "需要密码",
+    Tips: "管理员开启了密码验证，请在下方填入访问码",
+    Input: "在此处填写访问码",
+    Confirm: "确认",
+    Later: "稍后再说",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -20,6 +27,19 @@ const cn = {
       Retry: "重试",
       Delete: "删除",
     },
+    InputActions: {
+      Stop: "停止响应",
+      ToBottom: "滚到最新",
+      Theme: {
+        auto: "自动主题",
+        light: "亮色模式",
+        dark: "深色模式",
+      },
+      Prompt: "快捷指令",
+      Masks: "所有面具",
+      Clear: "清除聊天",
+      Settings: "对话设置",
+    },
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
@@ -31,24 +51,43 @@ const cn = {
     },
     Send: "发送",
     Config: {
-      Reset: "重置默认",
-      SaveAs: "另存为面具",
+      Reset: "清除记忆",
+      SaveAs: "存为面具",
     },
   },
   Export: {
-    Title: "导出聊天记录为 Markdown",
+    Title: "分享聊天记录",
     Copy: "全部复制",
     Download: "下载文件",
+    Share: "分享到 ShareGPT",
     MessageFromYou: "来自你的消息",
     MessageFromChatGPT: "来自 ChatGPT 的消息",
+    Format: {
+      Title: "导出格式",
+      SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
+    },
+    IncludeContext: {
+      Title: "包含面具上下文",
+      SubTitle: "是否在消息中展示面具上下文",
+    },
+    Steps: {
+      Select: "选取",
+      Preview: "预览",
+    },
+  },
+  Select: {
+    Search: "搜索消息",
+    All: "选取全部",
+    Latest: "最近几条",
+    Clear: "清除选中",
   },
   Memory: {
     Title: "历史摘要",
     EmptyContent: "对话内容过短，无需总结",
     Send: "自动压缩聊天记录并作为上下文发送",
     Copy: "复制摘要",
-    Reset: "重置对话",
-    ResetConfirm: "重置后将清空当前对话记录以及历史摘要，确认重置？",
+    Reset: "[unused]",
+    ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
     NewChat: "新的聊天",
@@ -69,19 +108,6 @@ const cn = {
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "所有语言",
-      Options: {
-        cn: "简体中文",
-        en: "English",
-        tw: "繁體中文",
-        es: "Español",
-        it: "Italiano",
-        tr: "Türkçe",
-        jp: "日本語",
-        de: "Deutsch",
-        vi: "Tiếng Việt",
-        ru: "Русский",
-        cs: "Čeština",
-      },
     },
     Avatar: "头像",
     FontSize: {
@@ -154,6 +180,10 @@ const cn = {
       SubTitle: "管理员已开启加密访问",
       Placeholder: "请输入访问密码",
     },
+    Endpoint: {
+      Title: "接口地址",
+      SubTitle: "除默认地址外，必须包含 http(s)://",
+    },
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
@@ -163,7 +193,7 @@ const cn = {
       Title: "单次回复限制 (max_tokens)",
       SubTitle: "单次交互所用的最大 Token 数",
     },
-    PresencePenlty: {
+    PresencePenalty: {
       Title: "话题新鲜度 (presence_penalty)",
       SubTitle: "值越大，越有可能扩展到新话题",
     },
@@ -173,12 +203,11 @@ const cn = {
     BotHello: "前往公众号👉🏻 [javastarboy](https://www.jsbcp.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后**即可使用**。\n\n若自己的 api_key 不够用，也可以加我微信 **javastarboy** 获取独享api_key，绝对可靠！ \n\n欢迎来聊聊👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) ",
     Error: "出错了，稍后重试吧",
     Prompt: {
-      History: (content: string) =>
-        "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
+      History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
         "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
       Summarize:
-        "简要总结一下你和用户的对话，用作后续的上下文提示 prompt，控制在 200 字以内",
+        "简要总结一下对话内容，用作后续的上下文提示 prompt，控制在 200 字以内",
     },
   },
   Copy: {
@@ -186,9 +215,11 @@ const cn = {
     Failed: "复制失败，请赋予剪切板权限",
   },
   Context: {
-    Toast: (x: any) => `已设置 ${x} 条前置上下文`,
+    Toast: (x: any) => `包含 ${x} 条预设提示词`,
     Edit: "当前对话设置",
     Add: "新增预设对话",
+    Clear: "上下文已清除",
+    Revert: "恢复上下文",
   },
   Plugin: {
     Name: "插件",
@@ -218,6 +249,15 @@ const cn = {
     Config: {
       Avatar: "角色头像",
       Name: "角色名称",
+      Sync: {
+        Title: "使用全局设置",
+        SubTitle: "当前对话是否使用全局模型设置",
+        Confirm: "当前对话的自定义设置将会被自动覆盖，确认启用全局设置？",
+      },
+      HideContext: {
+        Title: "隐藏预设对话",
+        SubTitle: "隐藏后预设对话不会出现在聊天界面",
+      },
     },
   },
   NewChat: {
@@ -239,6 +279,12 @@ const cn = {
   },
 };
 
-export type LocaleType = typeof cn;
+type DeepPartial<T> = T extends object
+  ? {
+      [P in keyof T]?: DeepPartial<T[P]>;
+    }
+  : T;
+export type LocaleType = DeepPartial<typeof cn>;
+export type RequiredLocaleType = typeof cn;
 
 export default cn;
