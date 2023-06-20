@@ -200,7 +200,7 @@ export function SideBar(props: { className?: string }) {
             onClick={() => {
               if (confirm(Locale.Notice.Content)) {
                 // 跳转链接
-                window.location.href = 'https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw';
+                window.open('https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw');
               }
             }}
             shadow
