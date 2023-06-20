@@ -95,6 +95,10 @@ const cn = {
     DeleteToast: "已删除会话",
     Revert: "撤销",
   },
+  Notice: {
+    Name: "通知公告",
+    Content: "# 该功能开发中，敬请期待... \n 可以加我微信交流 javastarboy"
+  },
   Settings: {
     Title: "设置",
     SubTitle: "设置选项",
