@@ -97,7 +97,7 @@ const cn = {
   },
   Notice: {
     Name: "通知公告",
-    Content: "# 该功能开发中，敬请期待... \n 可以加我微信交流 javastarboy"
+    Content: "📣重要通知📣 \n 加我微信交流更多 javastarboy"
   },
   Settings: {
     Title: "设置",
