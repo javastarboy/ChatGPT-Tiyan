@@ -97,7 +97,7 @@ const cn = {
   },
   Notice: {
     Name: "通知公告",
-    Content: "📣重要通知📣 \n👉🏻 加我微信交流更多 javastarboy \n👉🏻 点击确定了解【人工智能变现学院-AI 2.0 实验室】"
+    Content: "📣重要通知📣 \n👉🏻 加我微信交流更多 javastarboy \n👉🏻 点击确定了解【人工智能变现学院-AI🔥2.0 实验室】"
   },
   Settings: {
     Title: "设置",
