@@ -123,7 +123,7 @@ export function SideBar(props: { className?: string }) {
         ChatGPT4 Javastarboy
       </div>
         <div className={styles["sidebar-sub-title"]}>
-          <a href = "https://mp.weixin.qq.com/s/sAVnzvxKYgA4YWaToqSwSg" target="_blank">感兴趣的小伙伴,加入社群,终身免费使用！</a> <br />
+          <a href = "https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw" target="_blank">感兴趣的小伙伴,加入社群,终身免费使用！</a> <br />
           <a href = "https://www.jsbcp.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank">点我关注公众号,每日惊喜不断,干货不断！</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>

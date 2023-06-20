@@ -3,7 +3,7 @@ export const REPO = "ChatGPT-Next-Web";
 // github 链接
 // export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 // 广告：人工智能变现学院·星球社群介绍
-export const REPO_URL = `https://mp.weixin.qq.com/s/sAVnzvxKYgA4YWaToqSwSg`;
+export const REPO_URL = `https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
