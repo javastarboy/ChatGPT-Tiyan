@@ -199,7 +199,8 @@ export function SideBar(props: { className?: string }) {
             className={`${styles["sidebar-bar-button"]} ${styles["centered-button"]}`}
             onClick={() => {
               if (confirm(Locale.Notice.Content)) {
-                // 我就是提示一下而已
+                // 跳转链接
+                window.location.href = 'https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw';
               }
             }}
             shadow
