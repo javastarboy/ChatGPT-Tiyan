@@ -194,8 +194,9 @@ export function SideBar(props: { className?: string }) {
         <IconButton
             icon={<NoticeIcon />}
             text={shouldNarrow ? undefined : Locale.Notice.Name}
-            className={styles["sidebar-bar-button"]}
+            // className={styles["sidebar-bar-button"]}
             // onClick={() => showToast(Locale.Notice.Content)}
+            className={`${styles["sidebar-bar-button"]} ${styles["centered-button"]}`}
             onClick={() => {
               if (confirm(Locale.Notice.Content)) {
                 // 我就是提示一下而已
