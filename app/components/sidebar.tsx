@@ -126,7 +126,7 @@ export function SideBar(props: { className?: string }) {
       </div>
         <div className={styles["sidebar-sub-title"]}>
           <a href = "https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw" target="_blank">感兴趣的小伙伴,加入社群,终身免费使用！</a> <br />
-          <a href = "https://www.jsbcp.cn/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank">点我关注公众号,每日惊喜不断,干货不断！</a>
+          <a href = "https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank">点我关注公众号,每日惊喜不断,干货不断！</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -185,8 +185,8 @@ export function SideBar(props: { className?: string }) {
             </a>
           </div> */}
           {/* <div className={styles["sidebar-action"]} style={{fontSize: "80%"}}>
-            <a href = "https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" target="_blank">赞助</a>&nbsp;
-            <a href = "https://www.jsbcp.cn/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png" target="_blank">交流</a>&nbsp;
+            <a href = "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" target="_blank">赞助</a>&nbsp;
+            <a href = "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png" target="_blank">交流</a>&nbsp;
           </div> */}
         </div>
         <div>
