@@ -217,11 +217,12 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={
-                  <span style={{ fontSize: "24px", textAlign: "center" }}>
-                    📣 公 告
-                  </span>
-                }
+                title={"📣 公 告"}
+                // title={
+                //   <span style={{ fontSize: "24px", textAlign: "center" }}>
+                //     📣 公 告
+                //   </span>
+                // }
                 onClose={() => setShowDialog(false)}
                 actions={[
                   <IconButton
