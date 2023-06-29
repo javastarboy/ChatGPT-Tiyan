@@ -233,6 +233,16 @@ export function SideBar(props: { className?: string }) {
                         console.log("showDialog2===" + showDialog);
                     }}
                   />,
+                  <IconButton
+                    key="close"
+                    bordered
+                    text={"前往社群"}
+                    onClick={() => {
+                      window.open(
+                        "https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw",
+                      );
+                    }}
+                  />,
                 ]}
               >
                 <div className={styles["markdown-body"]}>
