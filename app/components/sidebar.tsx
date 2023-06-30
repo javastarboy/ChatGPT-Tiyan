@@ -231,7 +231,27 @@ export function SideBar(props: { className?: string }) {
                     }}
                   />,
                   <IconButton
-                    key="close"
+                    key="talk"
+                    bordered
+                    text={"交流"}
+                    onClick={() => {
+                      window.open(
+                        "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
+                      );
+                    }}
+                  />,
+                  <IconButton
+                    key="support"
+                    bordered
+                    text={"赞助"}
+                    onClick={() => {
+                      window.open(
+                        "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
+                      );
+                    }}
+                  />,
+                  <IconButton
+                    key="go"
                     bordered
                     text={"前往社群"}
                     onClick={() => {
