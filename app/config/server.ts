@@ -36,10 +36,9 @@ export const getServerSideConfig = () => {
     );
   }
 
+  // 项目部署时，加载 key
   const apiKeys = (process.env.OPENAI_API_KEY ?? "").split(",");
   const apiKey = apiKeys.at(Math.floor(Math.random() * apiKeys.length)) ?? "";
-
-  console.log("lmx11111111111111");
 
   return {
     // apiKey: process.env.OPENAI_API_KEY,

@@ -56,8 +56,6 @@ export async function requestOpenai(req: NextRequest) {
 
       const jsonBody = JSON.parse(clonedBody);
 
-      console.log("lmx666666666666666");
-
       if ((jsonBody?.model ?? "").includes("gpt-4")) {
         return NextResponse.json(
           {
