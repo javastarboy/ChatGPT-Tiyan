@@ -307,7 +307,7 @@ export function SideBar(props: { className?: string }) {
                   <br />
                   <br />✅ 若需要 GPT-4 转发key▶{" "}
                   <a
-                    href="https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
                     也可以加我微信 javastarboy 💰1刀/3人民币50刀起，请求稳定！
