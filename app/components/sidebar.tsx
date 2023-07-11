@@ -213,7 +213,7 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告"}
+                title={"📣 公 告（本站已支持GPT-4，星球成员免费使用）"}
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
@@ -303,6 +303,14 @@ export function SideBar(props: { className?: string }) {
                     target="_blank"
                   >
                     【人工智能变现学院-AI🔥2.0 实验室】
+                  </a>
+                  <br />
+                  <br />✅ 若需要 GPT-4 转发key▶{" "}
+                  <a
+                    href="https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    target="_blank"
+                  >
+                    也可以加我微信 javastarboy 💰1刀/3人民币50刀起，请求稳定！
                   </a>
                   <br />
                   <br />
