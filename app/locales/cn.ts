@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码。\n2. 欢迎来聊聊，每日分享干货👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) \n3. 若需要 GPT-4 转发key，也可以加我微信 **javastarboy** 💰1刀/3人民币50刀起，请求稳定！\n4. 永久免费极速版ChatGPT网址请移步：https://www.jsbcp.top/ \n5. 免费送价值298学习手册\n - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg\n6. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw \n\n【社群成员终身免费享有ChatGPT4使用密码】",
+      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码。\n2. 欢迎来聊聊，每日分享干货👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) \n3. 若需要 GPT-4 转发key，也可以加我微信 **javastarboy** 💰[1刀/3人民币](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)50刀起，请求稳定！\n4. 永久免费极速版ChatGPT网址请移步：https://www.jsbcp.top/ \n5. 免费送价值298学习手册\n - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg\n6. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw \n\n【社群成员终身免费享有ChatGPT4使用密码】",
   },
   Auth: {
     Title: "需要密码",
@@ -210,7 +210,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 可获取更多学习资料。\n\n1. [若需要 GPT-4 转发key，也可以加我微信「1刀/2人民币」50刀起💰，请求稳定，量大优惠！](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)\n\n2. 学习目录导航索引（群公告视频号视频必看）：\n - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg \n\n3. 星球成员请看星球置顶链接[新人必读指南](https://t.zsxq.com/10geAANxl) ",
+      "前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 可获取更多学习资料。\n\n1. 若需要 GPT-4 转发key，也可以加我微信[1刀/2人民币](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)50刀起💰，请求稳定，量大优惠！\n\n2. 学习目录导航索引（群公告视频号视频必看）：\n - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg \n\n3. 星球成员请看星球置顶链接[新人必读指南](https://t.zsxq.com/10geAANxl) ",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
