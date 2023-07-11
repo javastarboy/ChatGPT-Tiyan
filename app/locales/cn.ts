@@ -210,7 +210,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 回复**GPT4密码**获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后**即可使用**。\n\n若需要 GPT-4 转发key，也可以加我微信 **javastarboy** 💰1刀/3人民币50刀起，请求稳定！\n\n学习目录导航索引（群公告视频号视频必看）：\n- 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n- 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg \n\n欢迎来聊聊👉🏻 [AI2.0 实验室|微信交流群](https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) ",
+      "前往公众号👉🏻 [javastarboy](https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 可获取更多学习资料。\n\n1. 若需要 GPT-4 转发key，也可以加我微信「1刀/2人民币」50刀起💰，请求稳定，量大优惠！\n\n2. 学习目录导航索引（群公告视频号视频必看）：\n - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg \n\n3. 星球成员请看星球置顶链接[新人必读指南](https://t.zsxq.com/10geAANxl) ",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
