@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往👉🏻[AI2.0 实验室|微信交流群](https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) **免费获取密码**。\n2. 若需体验 GPT-4 仅需[3人民币/1刀](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)按量付费，GPT3.5终身免费使用！\n3. 若需 GPT-4 转发key仅需[2人民币/1刀](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)量大优惠！\n4. 免费送价值298学习手册\n   - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n   - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg\n5. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw \n\n✅ 社群成员终身免费享有ChatGPT4使用密码\n✅ [密码、参数设定教程及模型切换说明](https://ydyrb84oyc.feishu.cn/docx/Vnt9dJ5FzoBH3IxyRW2cNwmln3b)",
+      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。\n\n 1. 若无密码，可前往👉🏻[AI2.0 实验室|微信交流群](https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) **免费获取密码**。\n2. 若需体验 GPT-4 仅需[3人民币/1刀](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)按量付费，GPT3.5终身免费使用！\n3. 若需 GPT-4 转发key仅需[2人民币/1刀](https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p)量大优惠！\n4. 免费送价值298学习手册\n   - 全局目录导航：https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg\n   - 飞书目录合集：https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg\n5. 关于【人工智能变现学院（AI2.0实验室）】社群简介请点击链接：https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw \n\n✅ 社群成员终身免费享有ChatGPT4使用密码\n✅ [密码、参数设定教程及模型切换说明（点击查看）](https://ydyrb84oyc.feishu.cn/docx/Vnt9dJ5FzoBH3IxyRW2cNwmln3b)",
   },
   Auth: {
     Title: "需要密码",
