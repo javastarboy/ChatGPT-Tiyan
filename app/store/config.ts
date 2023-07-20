@@ -55,7 +55,7 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
-    name: "gpt4请加微信单独开通",
+    name: "gpt-4",
     available: false,
   },
   // {
