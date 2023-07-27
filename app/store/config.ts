@@ -67,6 +67,10 @@ export const ALL_MODELS = [
     available: true,
   },
   {
+    name: "gpt-3.5-turbo-0314",
+    available: true,
+  },
+  {
     name: "gpt-3.5-turbo-16k",
     available: true,
   },
