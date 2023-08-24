@@ -213,7 +213,7 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告（本站已支持GPT-4，体验仅需3元/1刀，3.5免费使用）"}
+                title={"📣 公 告（本站已支持GPT-4，体验仅需 1.3元/1刀，3.5免费使用）"}
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
@@ -256,7 +256,7 @@ export function SideBar(props: { className?: string }) {
                     text={"前往社群"}
                     onClick={() => {
                       window.open(
-                        "https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw",
+                        "https://t.zsxq.com/11ZhATvJ9",
                       );
                     }}
                   />,
@@ -281,7 +281,7 @@ export function SideBar(props: { className?: string }) {
                   >
                     【人工智能变现学院知识库】
                   </a>{" "}
-                  <br />✅ 欢迎来聊聊 (加微信拉入交流群)▶{" "}
+                  <br /><br />✅ 欢迎来聊聊 (加微信拉入交流群)▶{" "}
                   <a
                     href="https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
                     target="_blank"
@@ -302,7 +302,7 @@ export function SideBar(props: { className?: string }) {
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    也可以加我微信 javastarboy 💰1刀/2人民币50刀起，请求稳定！
+                    也可以加我微信 javastarboy 💰1刀/1.3人民币，没有期限，请求稳定！
                   </a>
                   <br />
                   <br />
