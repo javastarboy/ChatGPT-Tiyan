@@ -276,20 +276,12 @@ export function SideBar(props: { className?: string }) {
                   免费送价值 298 元 AIGC 学习手册 ▶&nbsp;&nbsp;
                   {/* 【涵盖ChatGPT、AI绘画、变现案例、行业报告、GPT部署...】&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp; */}
                   <a
-                    href="https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg"
+                    href="https://ydyrb84oyc.feishu.cn/wiki/SOpywcxjUikIS1k1LQZcTj0unJg"
                     target="_blank"
                   >
-                    【全局目录导航】
+                    【人工智能变现学院知识库】
                   </a>{" "}
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a
-                    href="https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg"
-                    target="_blank"
-                  >
-                    【飞书目录合集】
-                  </a>{" "}
-                  <br />
-                  <br />✅ 欢迎来聊聊 (加微信拉入交流群)👉🏻{" "}
+                  <br />✅ 欢迎来聊聊 (加微信拉入交流群)▶{" "}
                   <a
                     href="https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
                     target="_blank"
@@ -299,7 +291,7 @@ export function SideBar(props: { className?: string }) {
                   <br />
                   <br />✅ 社群简介请点击▶{" "}
                   <a
-                    href="https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw"
+                    href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
                     target="_blank"
                   >
                     【人工智能变现学院-AI🔥2.0 实验室】
