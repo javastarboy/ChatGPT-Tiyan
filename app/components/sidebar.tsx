@@ -213,7 +213,7 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告（本站已支持GPT-4，体验仅需 1.3元/1刀，3.5免费使用）"}
+                title={"📣 公 告（本站已支持GPT-4，仅需1.3元/1刀，3.5免费使用）（本站接广告）"}
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
