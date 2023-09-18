@@ -99,7 +99,8 @@ const en: LocaleType = {
   },
   Notice: {
     Name: "通知公告",
-    Content: "# 该功能开发中，敬请期待... \n 可以加我微信交流 javastarboy"
+    Content:
+      "# 该功能开发中，敬请期待... \n 可以加我微信领航猿1号「LHYYH0001」交流",
   },
   Settings: {
     Title: "Settings",

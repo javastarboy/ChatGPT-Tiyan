@@ -5,8 +5,8 @@ import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "ChatGPT4 Javastarboy",
-  description: "此服务支持来自于javastarboy.",
+  title: "ChatGPT4 领航猿1号",
+  description: "此服务支持来自于领航猿1号「LHYYH0001」.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -17,7 +17,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT4 Javastarboy",
+    title: "ChatGPT4 领航猿1号",
     statusBarStyle: "default",
   },
 };
