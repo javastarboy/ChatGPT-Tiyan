@@ -123,11 +123,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT4 Javastarboy
+          ChatGPT4 领航猿1号
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <a
-            href="https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw"
+            href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
             target="_blank"
           >
             感兴趣的小伙伴,加入社群,终身免费使用！
@@ -302,7 +302,7 @@ export function SideBar(props: { className?: string }) {
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    也可以加我微信 javastarboy 💰1刀/1.3人民币，没有期限，请求稳定！
+                    也可以加我微信 LHYYH0001 💰1刀/1.3人民币，没有期限，请求稳定！
                   </a>
                   <br />
                   <br />
