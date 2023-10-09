@@ -134,7 +134,7 @@ export function SideBar(props: { className?: string }) {
           </a>{" "}
           <br />
           <a
-            href="https://www.jsbcp.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"
+            href="https://www.jsbcp-1.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"
             target="_blank"
           >
             点我关注公众号,每日惊喜不断,干货不断！
@@ -236,7 +236,7 @@ export function SideBar(props: { className?: string }) {
                     text={"交流"}
                     onClick={() => {
                       window.open(
-                        "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
+                        "https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
                       );
                     }}
                   />,
@@ -246,7 +246,7 @@ export function SideBar(props: { className?: string }) {
                     text={"赞助"}
                     onClick={() => {
                       window.open(
-                        "https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
+                        "https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
                       );
                     }}
                   />,
@@ -264,8 +264,8 @@ export function SideBar(props: { className?: string }) {
               >
                 <div className={styles["markdown-body"]}>
                   ✅ 永久免费版▶{" "}
-                  <a href="https://www.jsbcp.top/" target="_blank">
-                    https://www.jsbcp.top/{" "}
+                  <a href="https://www.jsbcp-1.top/" target="_blank">
+                    https://www.jsbcp-1.top/{" "}
                   </a>
                   <span style={{ color: "red" }}>
                     &nbsp;【网址每月更新，建议加微信群，以便及时获取最新地址】
@@ -291,7 +291,7 @@ export function SideBar(props: { className?: string }) {
                   <br />
                   <br />✅ 欢迎来聊聊 (加微信拉入交流群)👉🏻{" "}
                   <a
-                    href="https://www.jsbcp.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    href="https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
                     target="_blank"
                   >
                     AI2.0 实验室|微信交流群
