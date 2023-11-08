@@ -58,12 +58,24 @@ export const ALL_MODELS = [
     name: "gpt-4",
     available: false,
   },
-  // {
-  //   name: "gpt-4-32k",
-  //   available: ENABLE_GPT4,
-  // },
+  {
+    name: "gpt-4-1106-preview",
+    available: false,
+  },
+  {
+    name: "gpt-4-vision-preview",
+    available: false,
+  },
+  {
+    name: "gpt-4-32k",
+    available: false,
+  },
   {
     name: "gpt-3.5-turbo",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-1106",
     available: true,
   },
   {
