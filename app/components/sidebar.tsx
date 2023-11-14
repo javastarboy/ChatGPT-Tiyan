@@ -310,7 +310,7 @@ export function SideBar(props: { className?: string }) {
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    也可以加我微信 javastarboy 💰1刀/3人民币50刀起，请求稳定！
+                    加我微信 LHYYH0001 免费获取网站密码！
                   </a>
                   <br />
                   <br />
