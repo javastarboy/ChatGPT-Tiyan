@@ -278,12 +278,12 @@ export function SideBar(props: { className?: string }) {
                   >
                     AI2.0 实验室|微信交流群
                   </a>
-                  {"  "}
+                  &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
                     href="https://ydyrb84oyc.feishu.cn/wiki/DsgkwJ8fdiaX68kqsIGc8tjynig"
                     target="_blank"
                   >
-                    &nbsp;&nbsp;&nbsp;免费获取本站密码方式
+                    免费获取本站密码方式
                   </a>
                   {"  "}
                   <br />
