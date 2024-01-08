@@ -279,7 +279,7 @@ export function SideBar(props: { className?: string }) {
                     href="https://www.jsbcp-2.top/微信交流群-个人.png"
                     target="_blank"
                   >
-                    加微信不迷路!
+                    点我加微信不迷路!
                   </a>{" "}
                   <br />
                   <br />
