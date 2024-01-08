@@ -111,7 +111,7 @@ export function SideBar(props: { className?: string }) {
   const navigate = useNavigate();
   const config = useAppConfig();
   // 公告弹窗用的组件
-  const [showDialog, setShowDialog] = useState(false); // 控制对话框的显示状态
+  const [showDialog, setShowDialog] = useState(true); // 控制对话框的显示状态
 
   useHotKey();
 
@@ -123,18 +123,18 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT4 Javastarboy
+          ChatGPT4 领航猿1号
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <a
-            href="https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw"
+            href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
             target="_blank"
           >
             感兴趣的小伙伴,加入社群,终身免费使用！
           </a>{" "}
           <br />
           <a
-            href="https://www.jsbcp-1.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"
+            href="https://www.jsbcp-2.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"
             target="_blank"
           >
             点我关注公众号,每日惊喜不断,干货不断！
@@ -213,7 +213,9 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告（本站已支持GPT-4，星球成员免费使用）"}
+                title={
+                  "📣 公 告（本站已支持GPT-4，仅需1.2元/1刀，宣传可得免费额度）【接广告】及【代部署业务】"
+                }
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
@@ -236,7 +238,7 @@ export function SideBar(props: { className?: string }) {
                     text={"交流"}
                     onClick={() => {
                       window.open(
-                        "https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
+                        "https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
                       );
                     }}
                   />,
@@ -246,8 +248,16 @@ export function SideBar(props: { className?: string }) {
                     text={"赞助"}
                     onClick={() => {
                       window.open(
-                        "https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
+                        "https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg",
                       );
+                    }}
+                  />,
+                  <IconButton
+                    key="talk"
+                    bordered
+                    text={"个人知识库"}
+                    onClick={() => {
+                      window.open("https://www.yuque.com/lhyyh");
                     }}
                   />,
                   <IconButton
@@ -255,20 +265,23 @@ export function SideBar(props: { className?: string }) {
                     bordered
                     text={"前往社群"}
                     onClick={() => {
-                      window.open(
-                        "https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw",
-                      );
+                      window.open("https://t.zsxq.com/11ZhATvJ9");
                     }}
                   />,
                 ]}
               >
                 <div className={styles["markdown-body"]}>
-                  ✅ 永久免费版▶{" "}
-                  <a href="https://www.jsbcp-1.top/" target="_blank">
-                    https://www.jsbcp-1.top/{" "}
+                  ✅ 欢迎来聊聊 (更新网址、AI教程、AI资讯)▶{" "}
+                  <a
+                    href="https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    target="_blank"
+                  >
+                    AI2.0 实验室|微信交流群
                   </a>
+                  {"  "}
+                  <br />
                   <span style={{ color: "red" }}>
-                    &nbsp;【网址每月更新，建议加微信群，以便及时获取最新地址】
+                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
                   </span>
                   <br />
                   <br />
@@ -276,30 +289,15 @@ export function SideBar(props: { className?: string }) {
                   免费送价值 298 元 AIGC 学习手册 ▶&nbsp;&nbsp;
                   {/* 【涵盖ChatGPT、AI绘画、变现案例、行业报告、GPT部署...】&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp; */}
                   <a
-                    href="https://ydyrb84oyc.feishu.cn/sheets/OfKvsq41MhRF5wt2kafcrR7lnVg"
+                    href="https://ydyrb84oyc.feishu.cn/wiki/SOpywcxjUikIS1k1LQZcTj0unJg"
                     target="_blank"
                   >
-                    【全局目录导航】
-                  </a>{" "}
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a
-                    href="https://ydyrb84oyc.feishu.cn/docx/UVLydQxKnowuqmx5mAycm7RdnJg"
-                    target="_blank"
-                  >
-                    【飞书目录合集】
-                  </a>{" "}
-                  <br />
-                  <br />✅ 欢迎来聊聊 (加微信拉入交流群)👉🏻{" "}
-                  <a
-                    href="https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
-                    target="_blank"
-                  >
-                    AI2.0 实验室|微信交流群
+                    【人工智能变现学院知识库】
                   </a>{" "}
                   <br />
                   <br />✅ 社群简介请点击▶{" "}
                   <a
-                    href="https://mp.weixin.qq.com/s/7rEZNtEPSdtwySki_pvPDw"
+                    href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
                     target="_blank"
                   >
                     【人工智能变现学院-AI🔥2.0 实验室】
@@ -310,10 +308,14 @@ export function SideBar(props: { className?: string }) {
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    加我微信 LHYYH0001 免费获取网站密码！
+                    也可以加我微信 LHYYH0001
+                    💰最低至1刀/1人民币，没有期限，请求稳定！
                   </a>
                   <br />
-                  <br />
+                  <br />✅ 近期我在研究 AGI大模型全栈，可关注我个人知识库▶{" "}
+                  <a href="https://www.yuque.com/lhyyh" target="_blank">
+                    LLM，LangChain，NLP，Transformer、向量数据库、RAG、FineTune、各大模型API
+                  </a>
                 </div>
               </Modal>
             </div>
