@@ -273,8 +273,14 @@ export function SideBar(props: { className?: string }) {
                 <div className={styles["markdown-body"]}>
                   ✅
                   <span style={{ color: "red" }}>
-                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信不迷路！】
+                    &nbsp;&nbsp;&nbsp;&nbsp;因不可控因素，网址不定期更新！
                   </span>
+                  <a
+                    href="https://www.jsbcp-2.top/微信交流群-个人.png"
+                    target="_blank"
+                  >
+                    加微信不迷路!
+                  </a>{" "}
                   <br />
                   <br />
                   {/* <span>{Locale.Notice.Content}</span><br/><br/> */}✅
