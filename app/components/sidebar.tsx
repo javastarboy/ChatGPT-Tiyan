@@ -111,7 +111,7 @@ export function SideBar(props: { className?: string }) {
   const navigate = useNavigate();
   const config = useAppConfig();
   // 公告弹窗用的组件
-  const [showDialog, setShowDialog] = useState(false); // 控制对话框的显示状态
+  const [showDialog, setShowDialog] = useState(true); // 控制对话框的显示状态
 
   useHotKey();
 
@@ -213,7 +213,9 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告（本站已支持GPT-4，仅需1.3元/1刀，3.5免费使用） 接广告 及 代部署业务"}
+                title={
+                  "📣 公 告（本站已支持GPT-4，仅需1.2元/1刀，宣传可得免费额度）【接广告】及【代部署业务】"
+                }
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
@@ -251,24 +253,35 @@ export function SideBar(props: { className?: string }) {
                     }}
                   />,
                   <IconButton
+                    key="talk"
+                    bordered
+                    text={"个人知识库"}
+                    onClick={() => {
+                      window.open("https://www.yuque.com/lhyyh");
+                    }}
+                  />,
+                  <IconButton
                     key="go"
                     bordered
                     text={"前往社群"}
                     onClick={() => {
-                      window.open(
-                        "https://t.zsxq.com/11ZhATvJ9",
-                      );
+                      window.open("https://t.zsxq.com/11ZhATvJ9");
                     }}
                   />,
                 ]}
               >
                 <div className={styles["markdown-body"]}>
-                  ✅ 永久免费版▶{" "}
-                  <a href="https://www.jsbcp-2.top/" target="_blank">
-                    https://www.jsbcp-2.top/{" "}
+                  ✅ 欢迎来聊聊 (更新网址、AI教程、AI资讯)▶{" "}
+                  <a
+                    href="https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    target="_blank"
+                  >
+                    AI2.0 实验室|微信交流群
                   </a>
+                  {"  "}
+                  <br />
                   <span style={{ color: "red" }}>
-                    &nbsp;【网址每月更新，建议加微信群，以便及时获取最新地址】
+                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
                   </span>
                   <br />
                   <br />
@@ -281,13 +294,6 @@ export function SideBar(props: { className?: string }) {
                   >
                     【人工智能变现学院知识库】
                   </a>{" "}
-                  <br /><br />✅ 欢迎来聊聊 (加微信拉入交流群)▶{" "}
-                  <a
-                    href="https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
-                    target="_blank"
-                  >
-                    AI2.0 实验室|微信交流群
-                  </a>{" "}
                   <br />
                   <br />✅ 社群简介请点击▶{" "}
                   <a
@@ -297,15 +303,19 @@ export function SideBar(props: { className?: string }) {
                     【人工智能变现学院-AI🔥2.0 实验室】
                   </a>
                   <br />
-                  <br />✅ 若需要 GPT-4 转发key▶ {" "}
+                  <br />✅ 若需要 GPT-4 转发key▶{" "}
                   <a
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    也可以加我微信 LHYYH0001 💰1刀/1.3人民币，没有期限，请求稳定！
+                    也可以加我微信 LHYYH0001
+                    💰最低至1刀/1人民币，没有期限，请求稳定！
                   </a>
                   <br />
-                  <br />
+                  <br />✅ 近期我在研究 AGI大模型全栈，可关注我个人知识库▶{" "}
+                  <a href="https://www.yuque.com/lhyyh" target="_blank">
+                    LLM，LangChain，NLP，Transformer、向量数据库、RAG、FineTune、各大模型API
+                  </a>
                 </div>
               </Modal>
             </div>
