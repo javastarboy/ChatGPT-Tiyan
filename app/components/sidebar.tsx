@@ -315,14 +315,14 @@ export function SideBar(props: { className?: string }) {
                     href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
                     target="_blank"
                   >
-                    💰套餐介绍：最低至1刀/1人民币，请求稳定！
+                    💰套餐介绍：最低至1刀/1人民币，请求稳定
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;
                   <a
                     href="https://www.jsbcp-2.top/微信交流群-个人.png"
                     target="_blank"
                   >
-                    💰加我微信 LHYYH0001 转账开通GPT4
+                    🌏 点我加微信 LHYYH0001 转账开通GPT4
                   </a>
                   <br />
                   <br />✅ 近期我在研究 AGI大模型全栈，可关注我个人知识库▶{" "}
