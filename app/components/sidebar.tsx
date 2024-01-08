@@ -271,17 +271,9 @@ export function SideBar(props: { className?: string }) {
                 ]}
               >
                 <div className={styles["markdown-body"]}>
-                  ✅ 欢迎来聊聊 (更新网址、AI教程、AI资讯)▶{" "}
-                  <a
-                    href="https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
-                    target="_blank"
-                  >
-                    AI2.0 实验室|微信交流群
-                  </a>
-                  {"  "}
-                  <br />
+                  ✅
                   <span style={{ color: "red" }}>
-                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
+                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信不迷路！】
                   </span>
                   <br />
                   <br />
