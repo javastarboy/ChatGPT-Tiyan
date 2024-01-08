@@ -279,6 +279,13 @@ export function SideBar(props: { className?: string }) {
                     AI2.0 实验室|微信交流群
                   </a>
                   {"  "}
+                  <a
+                    href="https://ydyrb84oyc.feishu.cn/wiki/DsgkwJ8fdiaX68kqsIGc8tjynig"
+                    target="_blank"
+                  >
+                    &nbsp;&nbsp;&nbsp;免费获取本站密码方式
+                  </a>
+                  {"  "}
                   <br />
                   <span style={{ color: "red" }}>
                     &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
