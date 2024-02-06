@@ -59,6 +59,14 @@ export const ALL_MODELS = [
     available: ENABLE_GPT4,
   },
   {
+    name: "gpt-4-0125-preview",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-turbo-preview",
+    available: ENABLE_GPT4,
+  },
+  {
     name: "gpt-4-1106-preview",
     available: ENABLE_GPT4,
   },
@@ -72,15 +80,19 @@ export const ALL_MODELS = [
   },
   {
     name: "gpt-3.5-turbo",
-    available: false,
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-0125",
+    available: true,
   },
   {
     name: "gpt-3.5-turbo-1106",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-3.5-turbo-16k",
-    available: false,
+    available: true,
   },
   {
     name: "qwen-v1", // 通义千问
