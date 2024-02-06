@@ -31,6 +31,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
 
   modelConfig: {
+    // 默认模型
     model: "gpt-4" as ModelType,
     temperature: 0.5,
     max_tokens: 4000,
