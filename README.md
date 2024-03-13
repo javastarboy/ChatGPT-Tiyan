@@ -5,7 +5,7 @@
 
 一键免费部署你的私人 ChatGPT 网页应用。
 
-[演示 Demo](https://chat-gpt-next-web-javastarboy.vercel.app/) / [反馈 Issues](https://github.com/javastarboy/ChatGPT-Next-Web/issues) / [微信群](https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) / [打赏开发者](https://www.jsbcp-1.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg)
+[演示 Demo](https://chat-gpt-next-web-javastarboy.vercel.app/) / [反馈 Issues](https://github.com/javastarboy/ChatGPT-Next-Web/issues) / [微信群](https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) / [打赏开发者](https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjavastarboy%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
@@ -119,8 +119,9 @@ BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
 ### 本地开发
 
 1. 安装 nodejs 18 和 yarn，具体细节请询问 ChatGPT；
-2. 执行 `yarn install && yarn dev` 即可。⚠️ 注意：此命令仅用于本地开发，不要用于部署！
-3. 如果你想本地部署，请使用 `yarn install && yarn start` 命令，你可以配合 pm2 来守护进程，防止被杀死，详情询问 ChatGPT。
+2. 执行 `npm install` 安装依赖！
+3. 执行 `npm run yarn:start` 启动服务
+4. 访问 `http://localhost:3000/` 进入页面即可使用
 
 ## 部署
 
