@@ -439,7 +439,7 @@ export function ImagePreviewer(props: {
           <div>
             <div className={styles["main-title"]}>ChatGPT Next Web</div>
             <div className={styles["sub-title"]}>
-             [javastarboy]: https://www.jsbcp-1.top/
+             [javastarboy]: https://www.jsbcp-2.top/
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

@@ -31,6 +31,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
 
   modelConfig: {
+    // 默认模型
     model: "gpt-3.5-turbo" as ModelType,
     temperature: 0.5,
     max_tokens: 2000,
@@ -56,14 +57,38 @@ const ENABLE_GPT4 = true;
 export const ALL_MODELS = [
   {
     name: "gpt-4",
-    available: false,
+    available: ENABLE_GPT4,
   },
-  // {
-  //   name: "gpt-4-32k",
-  //   available: ENABLE_GPT4,
-  // },
+  {
+    name: "gpt-4-0125-preview",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-turbo-preview",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-1106-preview",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-vision-preview",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-32k",
+    available: ENABLE_GPT4,
+  },
   {
     name: "gpt-3.5-turbo",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-0125",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-1106",
     available: true,
   },
   {
