@@ -1,4 +1,4 @@
-export const OWNER = "javastarboy";
+export const OWNER = "领航猿1号";
 export const REPO = "ChatGPT-Next-Web";
 // github 链接
 // export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
