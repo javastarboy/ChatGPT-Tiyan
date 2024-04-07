@@ -255,7 +255,7 @@ export function SideBar(props: { className?: string }) {
             <div className="modal-mask">
               <Modal
                 title={
-                  "📣 公 告（本站已支持GPT-4交流群获取； 3 月 13 日已更新众多功能，欢迎体验）【接广告】及【代部署业务】"
+                  "📣 公 告（本站已支持GPT-4交流群获取）【接广告】及【代部署业务】"
                 }
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
@@ -353,7 +353,7 @@ export function SideBar(props: { className?: string }) {
                   <br />
                   <br />✅ 知乎 AGI 大模型全栈课优惠通道 ▶{" "}
                   <a href="https://www.yuque.com/lhyyh" target="_blank">
-                    LLM，LangChain，NLP，Transformer、向量数据库、RAG、FineTune、各大模型API
+                    LangChain，NLP，Transformer、向量数据库、RAG、FineTune...
                   </a>
                   <br />
                   <br />✅ 更新通知 ▶{" "}
