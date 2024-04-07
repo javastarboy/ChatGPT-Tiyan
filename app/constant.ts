@@ -275,6 +275,15 @@ export const DEFAULT_MODELS = [
     },
   },
   {
+    name: "suno-v3",
+    available: true,
+    provider: {
+      id: "suno",
+      providerName: "Suno音乐创作",
+      providerType: "suno",
+    },
+  },
+  {
     name: "gemini-pro",
     available: true,
     provider: {
