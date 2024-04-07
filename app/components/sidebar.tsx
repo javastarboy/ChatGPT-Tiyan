@@ -319,14 +319,6 @@ export function SideBar(props: { className?: string }) {
                   >
                     AI2.0 实验室|微信交流群
                   </a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a
-                    href="https://ydyrb84oyc.feishu.cn/wiki/DsgkwJ8fdiaX68kqsIGc8tjynig"
-                    target="_blank"
-                  >
-                    免费获取本站密码方式
-                  </a>
-                  {"  "}
                   <br />
                   <span style={{ color: "red" }}>
                     &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
@@ -351,29 +343,21 @@ export function SideBar(props: { className?: string }) {
                     【人工智能变现学院-AI🔥2.0 实验室】
                   </a>
                   <br />
-                  <br />✅ 若需要 GPT-4 转发key▶{" "}
-                  <a
-                    href="https://ydyrb84oyc.feishu.cn/docx/XO3AdeWXZo5l8YxrGEHcLFo6n5p"
-                    target="_blank"
-                  >
-                    💰套餐介绍：最低至1刀/1人民币，请求稳定
-                  </a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
+                  <br />✅ 若需要 GPT-4 与 suno 音乐创作权限▶{" "}
                   <a
                     href="https://www.jsbcp-2.top/微信交流群-个人.png"
                     target="_blank"
                   >
-                    🌏 点我加微信 LHYYH0001 转账开通GPT4
+                    🌏 点我加微信 LHYYH0001 开通
                   </a>
                   <br />
-                  <br />✅ 近期我在研究 AGI大模型全栈，可关注我个人知识库▶{" "}
+                  <br />✅ 知乎 AGI 大模型全栈课优惠通道 ▶{" "}
                   <a href="https://www.yuque.com/lhyyh" target="_blank">
                     LLM，LangChain，NLP，Transformer、向量数据库、RAG、FineTune、各大模型API
                   </a>
                   <br />
-                  <br />✅ 【2024 年 3 月 13 日】升级通知 ▶{" "}
-                  本站已升级众多功能，且已支持 Gemini、Claude、Azure
-                  等大模型。欢迎体验！
+                  <br />✅ 更新通知 ▶{" "}
+                  本站已支持「OpenAI全系、Gemini、Claude、Azure、Suno音乐创作」等大模型。欢迎体验！
                 </div>
               </Modal>
             </div>
