@@ -162,7 +162,7 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <a
-            href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
+            href="https://work.weixin.qq.com/ca/cawcde525445083bde"
             target="_blank"
           >
             感兴趣的小伙伴,加入社群,终身免费使用！
@@ -296,7 +296,7 @@ export function SideBar(props: { className?: string }) {
                     bordered
                     text={"AGI知识库"}
                     onClick={() => {
-                      window.open("https://www.yuque.com/lhyyh");
+                      window.open("https://www.yuque.com/lhyyh/ai");
                     }}
                   />,
                   <IconButton
