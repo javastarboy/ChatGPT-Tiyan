@@ -254,9 +254,7 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={
-                  "📣 公 告（本站已支持GPT-4交流群获取）【接广告】及【代部署业务】"
-                }
+                title={"📣 公 告（本站已完全免费）"}
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
@@ -279,7 +277,7 @@ export function SideBar(props: { className?: string }) {
                     text={"交流"}
                     onClick={() => {
                       window.open(
-                        "https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png",
+                        "https://work.weixin.qq.com/ca/cawcde525445083bde",
                       );
                     }}
                   />,
@@ -296,7 +294,7 @@ export function SideBar(props: { className?: string }) {
                   <IconButton
                     key="talk"
                     bordered
-                    text={"个人知识库"}
+                    text={"AGI知识库"}
                     onClick={() => {
                       window.open("https://www.yuque.com/lhyyh");
                     }}
@@ -312,52 +310,38 @@ export function SideBar(props: { className?: string }) {
                 ]}
               >
                 <div className={styles["markdown-body"]}>
-                  ✅ 欢迎来聊聊 (更新网址、AI教程、AI资讯)▶{" "}
+                  ✅ 欢迎来聊聊 (AI全栈教程、AI资讯、大模型应用落地、更新网址) ▶{" "}
                   <a
-                    href="https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png"
+                    href="https://work.weixin.qq.com/ca/cawcde525445083bde"
                     target="_blank"
                   >
-                    AI2.0 实验室|微信交流群
+                    AI大模型全栈|微信交流群
                   </a>
                   <br />
-                  <span style={{ color: "red" }}>
-                    &nbsp;&nbsp;&nbsp;&nbsp;【因不可控因素，网址不定期更新，加微信/群不迷路！】
-                  </span>
-                  <br />
-                  <br />
-                  {/* <span>{Locale.Notice.Content}</span><br/><br/> */}✅
-                  免费送价值 298 元 AIGC 学习手册 ▶&nbsp;&nbsp;
-                  {/* 【涵盖ChatGPT、AI绘画、变现案例、行业报告、GPT部署...】&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp; */}
+                  {/* <span style={{ color: "red" }}>
+                    &nbsp;&nbsp;&nbsp;&nbsp;【加微信/群不迷路！】
+                  </span> */}
+                  <br />✅ 交个朋友 ▶{" "}
                   <a
-                    href="https://ydyrb84oyc.feishu.cn/wiki/SOpywcxjUikIS1k1LQZcTj0unJg"
+                    href="https://www.yuque.com/lhyyh/ai/readme"
                     target="_blank"
                   >
-                    【人工智能变现学院知识库】
-                  </a>{" "}
+                    【50多万字「AI全栈」知识库及个人简介】
+                  </a>
                   <br />
-                  <br />✅ 社群简介请点击▶{" "}
+                  <br />
                   <a
-                    href="https://ydyrb84oyc.feishu.cn/wiki/Vxg8wAFUti3VAhksSyLc4AD3n8g"
+                    href="https://www.yuque.com/lhyyh/ai/technology-stack?singleDoc"
                     target="_blank"
                   >
-                    【人工智能变现学院-AI🔥2.0 实验室】
+                    ✅【LLM AI 大模型全栈开发知识体系】
                   </a>
                   <br />
-                  <br />✅ 若需要 GPT-4 与 suno 音乐创作权限▶{" "}
-                  <a
-                    href="https://www.jsbcp-2.top/微信交流群-个人.png"
-                    target="_blank"
-                  >
-                    🌏 点我加微信 LHYYH0001 开通
+                  <br />✅ 本站升级版AI聚合工具地址 ▶{" "}
+                  <a href="https://www.jsbcp-1.top/" target="_blank">
+                    公测版，全网最好用，欢迎体验！
                   </a>
                   <br />
-                  <br />✅ 知乎 AGI 大模型全栈课优惠通道 ▶{" "}
-                  <a href="https://www.yuque.com/lhyyh" target="_blank">
-                    LangChain，NLP，Transformer、向量数据库、RAG、FineTune...
-                  </a>
-                  <br />
-                  <br />✅ 更新通知 ▶{" "}
-                  本站已支持「OpenAI全系、Gemini、Claude、Azure、Suno音乐创作」等大模型。欢迎体验！
                 </div>
               </Modal>
             </div>
