@@ -254,7 +254,9 @@ export function SideBar(props: { className?: string }) {
           {showDialog && (
             <div className="modal-mask">
               <Modal
-                title={"📣 公 告（本站已完全免费）"}
+                title={
+                  "📣 公 告（本站已完全免费）| 本站升级版支持图片解析👉🏻 https://www.jsbcp-1.top/ "
+                }
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
                 //     📣 公 告
