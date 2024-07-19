@@ -344,8 +344,11 @@ export function SideBar(props: { className?: string }) {
                     公测版，全网最好用，欢迎体验！
                   </a>
                   <br />
-                  <br />✅ 点击左下角设置按钮，滑到底部，立即重置可免费使用 GPT4
-                  ▶{" "}
+                  <br />{" "}
+                  <span style={{ color: "red" }}>
+                    &nbsp;&nbsp;&nbsp;&nbsp;✅ 点击左下角 ⚙
+                    设置按钮，滑到底部，立即重置可免费使用 GPT4
+                  </span>
                 </div>
               </Modal>
             </div>
