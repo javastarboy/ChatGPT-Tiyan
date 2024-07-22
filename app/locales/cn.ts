@@ -7,7 +7,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "✅ 访问密码不正确，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码. 或者填入你自己的 OpenAI API Key。\n\n 1. 若密码错误，可前往👉🏻[✅AI全栈|微信交流群](https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) **即时免费获取**。\n2. 交个朋友：[自我介绍 & AI知识库](https://www.yuque.com/lhyyh/ai/readme)\n\n✅ 『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://work.weixin.qq.com/ca/cawcde525445083bde) \n\n📣 本站接广告 及 代部署业务",
+      "✅ 访问密码不正确，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页输入正确的访问密码. 或者填入你自己的 OpenAI API Key。\n\n 1. 若密码错误或额度已用尽，可前往👉🏻[✅AI全栈|微信交流群](https://www.jsbcp-2.top/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png) **即时免费获取**。\n2. 交个朋友：[自我介绍 & AI知识库](https://www.yuque.com/lhyyh/ai/readme)\n\n✅ 『合作 · 咨询 · 学习 · 交流 · 商务』 [点我加微信](https://work.weixin.qq.com/ca/cawcde525445083bde) \n\n📣 本站接广告 及 代部署业务",
     // Unauthorized: isApp
     //   ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
     //   : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
