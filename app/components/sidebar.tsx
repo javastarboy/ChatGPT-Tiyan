@@ -331,12 +331,12 @@ export function SideBar(props: { className?: string }) {
                     【50多万字「AI全栈」知识库及个人简介】
                   </a>
                   <br />
-                  <br />
+                  <br />✅ 提升自身逼格，优惠 3000 元 ▶{" "}
                   <a
-                    href="https://www.yuque.com/lhyyh/ai/technology-stack?singleDoc"
+                    href="https://www.yuque.com/lhyyh/ai/ins6gx3o7hck7shb"
                     target="_blank"
                   >
-                    ✅【LLM AI 大模型全栈开发知识体系】
+                    ✅【考取工信部 AIGC 技能证书】
                   </a>
                   <br />
                   <br />✅ 本站升级版AI聚合工具地址 ▶{" "}
