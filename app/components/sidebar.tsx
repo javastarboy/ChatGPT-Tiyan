@@ -255,7 +255,7 @@ export function SideBar(props: { className?: string }) {
             <div className="modal-mask">
               <Modal
                 title={
-                  "📣 公 告（本站已完全免费）| 本站升级版支持图片解析👉🏻 https://www.jsbcp-1.top/ "
+                  "📣 公 告（本站完全免费，请直接使用gpt4模型，gpt3.5已被我禁用。密码👇）"
                 }
                 // title={
                 //   <span style={{ fontSize: "24px", textAlign: "center" }}>
@@ -312,9 +312,9 @@ export function SideBar(props: { className?: string }) {
                 ]}
               >
                 <div className={styles["markdown-body"]}>
-                  ✅ 欢迎来聊聊 (AI全栈教程、AI资讯、大模型应用落地、更新网址) ▶{" "}
+                  ✅ AI全栈教程、AI资讯、大模型应用落地、网站密码 ▶{" "}
                   <a
-                    href="https://work.weixin.qq.com/ca/cawcde525445083bde"
+                    href="https://www.jsbcp-2.top/微信交流群.png"
                     target="_blank"
                   >
                     AI大模型全栈|微信交流群
@@ -323,7 +323,7 @@ export function SideBar(props: { className?: string }) {
                   {/* <span style={{ color: "red" }}>
                     &nbsp;&nbsp;&nbsp;&nbsp;【加微信/群不迷路！】
                   </span> */}
-                  <br />✅ 交个朋友 ▶{" "}
+                  <br />✅ 交个朋友，自我介绍 ▶{" "}
                   <a
                     href="https://www.yuque.com/lhyyh/ai/readme"
                     target="_blank"
@@ -331,7 +331,7 @@ export function SideBar(props: { className?: string }) {
                     【50多万字「AI全栈」知识库及个人简介】
                   </a>
                   <br />
-                  <br />✅ 提升自身逼格，优惠 3000 元 ▶{" "}
+                  <br />✅ 提升职场竞争力，升职涨薪，优惠3000+元 ▶{" "}
                   <a
                     href="https://www.yuque.com/lhyyh/ai/ins6gx3o7hck7shb"
                     target="_blank"
@@ -339,7 +339,7 @@ export function SideBar(props: { className?: string }) {
                     ✅【考取工信部 AIGC 技能证书】
                   </a>
                   <br />
-                  <br />✅ 本站升级版AI聚合工具地址 ▶{" "}
+                  <br />✅ 本站【升级版AI聚合工具】网址 ▶{" "}
                   <a href="https://www.jsbcp-1.top/" target="_blank">
                     公测版，全网最好用，欢迎体验！
                   </a>
@@ -347,7 +347,8 @@ export function SideBar(props: { className?: string }) {
                   <br />{" "}
                   <span style={{ color: "red" }}>
                     &nbsp;&nbsp;&nbsp;&nbsp;✅ 点击左下角 ⚙
-                    设置按钮，滑到底部，立即重置可免费使用 GPT4
+                    设置按钮，滑到底部，立即重置可免费使用
+                    GPT4【密码群里领取👆】
                   </span>
                 </div>
               </Modal>
