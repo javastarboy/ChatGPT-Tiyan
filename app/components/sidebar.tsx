@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT4 领航猿1号
+          ChatGPT4 AGI舰长
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <a
@@ -169,7 +169,7 @@ export function SideBar(props: { className?: string }) {
           </a>{" "}
           <br />
           <a
-            href="https://www.jsbcp-2.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"
+            href="https://www.jsbcp-2.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png"
             target="_blank"
           >
             点我关注公众号,每日惊喜不断,干货不断！
@@ -298,7 +298,7 @@ export function SideBar(props: { className?: string }) {
                     bordered
                     text={"AGI知识库"}
                     onClick={() => {
-                      window.open("https://www.yuque.com/lhyyh/ai");
+                      window.open("https://www.yuque.com/lhyyh/ai/readme");
                     }}
                   />,
                   <IconButton

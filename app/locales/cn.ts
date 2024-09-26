@@ -368,7 +368,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "前往公众号👉🏻 [领航猿1号](https://www.jsbcp-2.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg) 可及时获取本站最新资讯。\n\n1. 本站升级版AI聚合工具已上线 [公测地址](https://www.jsbcp-1.top/) \n\n2. 升级版工具[使用说明](https://www.yuque.com/lhyyh/ai/egfguxs2xbqdytl7) \n\n3. 🩸 合作 · 咨询 · 学习 · 交流 · 商务 [加微信（可点击扫码）](https://work.weixin.qq.com/ca/cawcde525445083bde)\n\n",
+      "前往公众号👉🏻 [AGI舰长](https://www.jsbcp-2.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png) 可及时获取本站最新资讯。\n\n1. 本站升级版AI聚合工具已上线 [公测地址](https://www.jsbcp-1.top/) \n\n2. 升级版工具[使用说明](https://www.yuque.com/lhyyh/ai/egfguxs2xbqdytl7) \n\n3. 🩸 合作 · 咨询 · 学习 · 交流 · 商务 [加微信（可点击扫码）](https://work.weixin.qq.com/ca/cawcde525445083bde)\n\n\n\n4. AI大模型全栈通识课 [传送门](https://www.yuque.com/lhyyh/agi/introduce)\n\n",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

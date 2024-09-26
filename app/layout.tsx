@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata = {
-  title: "ChatGPT4 领航猿1号",
-  description: "此服务支持来自于领航猿1号「LHYYH0001」.",
+  title: "ChatGPT4 AGI舰长",
+  description: "此服务支持来自于AGI舰长「LHYYH0001」.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT4 领航猿1号",
+    title: "ChatGPT4 AGI舰长",
     statusBarStyle: "default",
   },
 };
